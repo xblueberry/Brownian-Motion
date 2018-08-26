@@ -1,0 +1,9 @@
+set ylabel "Desplaçament mig x"
+
+set xlabel "Temps(s)"
+
+
+set xrange [0:20]
+
+set yrange [-5:5]
+plot "mitjanes.txt" using 2:3
