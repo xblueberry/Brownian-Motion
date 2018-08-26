@@ -1,0 +1,4 @@
+set autoscale xy            
+set xlabel "X"              
+set ylabel "PDF"            
+plot "histograma50.txt" w boxes
