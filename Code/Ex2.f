@@ -68,7 +68,7 @@ C     Format de presentacio per consola dels parametres introduits
      1  /1X,'# Nombre de captures.......................',I6)
 
 
-C     Inicialitzacio de la mitjana (nula) i de la varian‡a (sense considerar
+C     Inicialitzacio de la mitjana (nula) i de la varianâ€¡a (sense considerar
 C     la constant de Boltzmann)
       XAV=0.0D0
       SDEV=SQRT(2.0D0*TEMP*STEPT/RLAMB)
@@ -125,7 +125,7 @@ C       Calcul dels coeficients de difusio de X i Y
         DIFFX=(X2MEAN-XMEAN**2)/(2.0D0*TIME)
         DIFFY=(Y2MEAN-YMEAN**2)/(2.0D0*TIME)
 
-C       Es guarda en l'arxiu de posicions els parametres seguents que encap‡alen
+C       Es guarda en l'arxiu de posicions els parametres seguents que encapâ€¡alen
 C       cada captura
         WRITE(10,1001) ISHOT,TIME,XMEAN,YMEAN,DIFFX,DIFFY
  1001   FORMAT(
